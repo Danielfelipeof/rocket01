@@ -1,0 +1,65 @@
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 49px;
+    line-height: 56px;
+    font-weight: normal;
+}
+
+h1 span {
+    font-weight: bold;
+}
+
+/* Por padrão os navegadores utilizan um margin de 8px no body*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+
+    margin: 0;
+}
+
+#hero {
+    width: 592px;
+    margin: 0 auto 72px;
+}
+
+
+#hero img {
+    margin-bottom: 72px;
+}
+
+span, a {
+    color: #FF9900;
+}
+
+
+p, #footer {
+    color: #7D7987;
+
+    font-size: 14px;
+    line-height: 28px;
+}
+
+/* O a + a significa que é para o vscode pegar o a que tem outra tag a anterior a ela
+e aplique o margin. Nesse caso foi aplicado o margin-left */
+
+#footer a + a {
+
+    margin-left: 28px;
+}
+
+
+#line {
+    width: 568px;
+    height: 0;
+
+    border: 1px solid #ECEFF2;
+    margin: 0 auto 8px;
+}
+
+
+#balls {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
